@@ -9,7 +9,7 @@ from openai import OpenAI
 from thai_tokenizer import Tokenizer
 
 # Set the OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-JoABD96Rui1GWSrpJ6h78lTDEkbQG386TWBYZWLPQHoWewkU"
+os.environ["OPENAI_API_KEY"] = ""
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
     base_url="https://api.opentyphoon.ai/v1",
